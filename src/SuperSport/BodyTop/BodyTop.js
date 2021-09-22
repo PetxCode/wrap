@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import BodyTopButton from "./BodyTopButton";
 import BodyRedButton from "./BodyRedButton";
-import { RiAppsFill } from "react-icons/ri";
 import { AiOutlineAppstoreAdd, AiOutlineAppstore } from "react-icons/ai";
 
 const BodyTop = () => {

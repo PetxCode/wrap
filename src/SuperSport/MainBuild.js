@@ -4,16 +4,18 @@ import Header1 from "./Header/Header";
 import Header2 from "./Header/Header2";
 import AdComp from "./AdComp";
 import BodyTop from "./BodyTop/BodyTop";
+import { HeaderTest } from "./HeaderTest/HeaderTest";
 
 export const MainBuild = () => {
   return (
     <Container>
-      <Header1 />
+      {/* <Header1 />
       <Header2 />
       <AdComp />
       <Wrapper>
         <BodyTop />
-      </Wrapper>
+      </Wrapper> */}
+      <HeaderTest />
     </Container>
   );
 };
